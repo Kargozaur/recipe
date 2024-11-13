@@ -9,7 +9,7 @@ from .renders import UserJSONRenderer
 # Create your views here.
 
 
-class RegistrationApiView(APIView):
+class RegistrationAPIView(APIView):
     """Allow all users (authenticated and not) access to this endpoint"""
 
     permission_classes = (AllowAny,)
